@@ -138,7 +138,7 @@ public class App extends MultiDexApplication {
         putDefault(HawkConfig.DOH_URL, 0);                   //安全DNS: 0=关闭, 1=腾讯, 2=阿里, 3=360, 4=Google, 5=AdGuard, 6=Quad9
 //        putDefault(HawkConfig.LIVE_CROSS_GROUP, 1);   	 //直播：跨选分类 0=否 ,1=是
 //        putDefault(HawkConfig.LIVE_CHANNEL_REVERSE, 0);    //直播：换台反转 0= 否 ,1=是		
-
+        putDefault(HawkConfig.API_URL, "http://饭太硬.top/tv");
     }
 
     private void initLocale() {
